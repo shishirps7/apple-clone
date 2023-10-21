@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display', sans-serif;
+}
+nav{
+    background-color: #303030;
+}
+
+#div0{
+    background-color: #303030;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    height: 44px;
+    margin-left: 200px;
+    margin-right: 220px;
+}
+
+#div0>ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+#div0>ul>li {
+    margin-inline: 16px;
+}
+
+#div0>ul>li>a {
+    text-decoration: none;
+    color: white;
+    
+}
+#bag{
+    margin-left: 20px;
+}
+#div1{
+    display: flex;
+     justify-content: space-around;
+    align-items: center;
+    margin-inline: 171px;
+/* padding: 3px, 171.67px, 49px, 171.67px; */
+
+}
+.div1_items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#section1{
+    width: 100vw;
+height: 930.5px;
+padding: 133px, 266px, 0px, 266px;
+
+}
+#div2{
+    display: flex;
+    width: 980px;
+    position: absolute;
+height: 1021.5px;
+top: 200px;
+left: 266px;
+flex-direction: column;
+align-items: center;
+
+}
+#div2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div5{
+    background-image: url(/Assets/div5.svg);
+    width: 1410px;
+height: 814px;
+
+}
